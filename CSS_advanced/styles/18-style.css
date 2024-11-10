@@ -47,7 +47,7 @@ html {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 3rem 0 0 0;
+    --nav-item-margin: 3rem;
     --nav-item-link-hover: var(--color-primary);
 }
 body{
@@ -130,7 +130,8 @@ a:active{
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
+    margin: 0;
+    margin-bottom: var(--nav-item-margin);
 }
 .nav .nav-link{
     display: block;
